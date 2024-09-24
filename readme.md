@@ -22,6 +22,31 @@ $ git cz
 O **Commitizen** oferece uma experiência guiada para criar mensagens de commit no formato convencional.
 
 
+---
+
+### `Conventional Changelog`
+
+O Conventional Changelog pode ser utilizado para gerar um changelog (histórico de alterações) automaticamente a partir dos conventional commits, exibindo os commits de forma organizada e amigável.
+
+`Instalação:`
+
+```bash
+npm install -g conventional-changelog-cli
+```
+
+`Gerar o changelog:`
+
+```bash
+conventional-changelog -p angular -i CHANGELOG.md -s
+```
+
+Isso criará um arquivo CHANGELOG.md que lista todos os commits com informações claras sobre novas funcionalidades, correções de bugs, etc.
+
+> Pensa: gerar o changelog depois que passar nos testes/aprovação e enviar ao repositório remoto.
+
+---
+
+
 ### O que há de novo?
 - Página index.html
 - Página contato.html
