@@ -44,6 +44,8 @@ Isso criará um arquivo CHANGELOG.md que lista todos os commits com informaçõe
 
 > Pensa: gerar o changelog depois que passar nos testes/aprovação e enviar ao repositório remoto.
 
+E por fim, a saída do comando changelog
+
 ---
 
 
